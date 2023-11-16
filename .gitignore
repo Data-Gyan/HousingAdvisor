@@ -57,6 +57,7 @@ cover/
 
 # Documents
 *.pdf
+*.html
 
 # Django stuff:
 *.log
