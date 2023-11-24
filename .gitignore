@@ -80,6 +80,7 @@ docs/_build/
 
 # pickled files
 /pickle/
+*.pkl
 
 # PyBuilder
 .pybuilder/
