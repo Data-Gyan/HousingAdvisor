@@ -78,6 +78,9 @@ docs/_build/
 # data
 /data/
 
+# pickled files
+/pickle/
+
 # PyBuilder
 .pybuilder/
 target/
