@@ -13,7 +13,7 @@ st.set_page_config(page_title="Analysis App")
 st.title('Housing Price Visualization')
 
 new_df = pd.read_csv('./datasets/data_viz1.csv')
-feature_text = pickle.load(open('datasets/feature_text.pkl','rb'))
+feature_text = pickle.load(open('../pickle/feature_text.pkl','rb'))
 
 
 group_df = new_df.groupby('sector').mean(numeric_only=True)[['price','price_per_sqft','built_up_area','latitude','longitude']]

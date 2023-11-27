@@ -6,10 +6,10 @@ import numpy as np
 st.set_page_config(page_title="Price Predictor")
 st.title('Housting Price Predictor - For Gurgaon')
 
-with open('df.pkl', 'rb') as file:
+with open('../pickle/df.pkl', 'rb') as file:
     df = pickle.load(file)
 
-with open('pipeline.pkl', 'rb') as file:
+with open('../pickle/pipeline.pkl', 'rb') as file:
     pipeline = pickle.load(file)
 
 # st.dataframe(df)
